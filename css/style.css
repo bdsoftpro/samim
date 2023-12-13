@@ -1,0 +1,50 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 8px 0px;
+}
+
+p {
+    margin: 6px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row:has(> .top) {
+    background-color: #222222;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top>nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 8px 0;
+}
+nav ul > li {
+    display: inline-block;
+}
+
+nav ul > li a {
+    color: #ffffff;
+}
